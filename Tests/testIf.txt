@@ -1,0 +1,38 @@
+program main
+int :: a,b,x,y,i,z,j
+
+print("prueba if")
+
+a = 5
+b =  3
+x = b +5
+y = a
+z = 1
+j = 0
+
+if( a<=b) then
+{
+	i = a*5+(b+4)
+	print("caso true")
+	print(a)
+	for(j;j<a;j=j+1)
+	{
+		print(b)
+		z = i + a
+		print (i)
+	}
+}else
+{
+	if(y<x) then
+	{
+		i = x * (b * y)
+		print(x)
+		print("if anidado")
+	}else
+	{
+		print("ultimo caso")
+	}
+}
+
+print(i)
+end program main

@@ -1,0 +1,19 @@
+program main
+int :: i,n,x,j,m
+print("prueba while")
+n=5
+x = 1
+m = n
+j = 3
+while (n>=1) do
+{
+	x = x * n
+	n = n - 1
+}
+while ( m > 0) do
+{
+	x = x + j
+	m = m - 1
+}
+print(x)
+end program main
